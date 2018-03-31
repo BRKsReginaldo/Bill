@@ -106,10 +106,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
     }),
-    new WorkboxPlugin.GenerateSW({
-      clientsClaim: true,
-      skipWaiting: true
-    }),
     new webpack.DefinePlugin({
       config: JSON.stringify(process.env)
     })
