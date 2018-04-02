@@ -4,7 +4,6 @@ import reducers from '../reducers'
 import rootSaga from "../sagas";
 import loggerMiddleware from "redux-logger";
 
-
 const sagaMiddleware = createSagaMiddleware()
 let enhanceStore = compose
 

@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux'
-import ui from './ui'
+import navbar from "./navbar";
 
 export default combineReducers({
-  ui
+  navbar
 })

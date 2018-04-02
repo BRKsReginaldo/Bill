@@ -1,12 +1,16 @@
+/** @flow */
+
 import React, {Component} from 'react'
 import {hot} from "react-hot-loader";
+import Aux from "./hoc/Aux";
+import Routes from "./containers/Routes";
 
-export class App extends Component {
+export class App extends Component<{}> {
   render() {
     return (
-      <div>
-        Home View
-      </div>
+      <Aux>
+        <Routes/>
+      </Aux>
     )
   }
 }

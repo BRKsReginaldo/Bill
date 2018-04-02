@@ -6,7 +6,8 @@
       }
     }],
     "stage-0",
-    "react"
+    "react",
+    "flow"
   ],
   "plugins": [
     "transform-async-to-generator",
